@@ -30,7 +30,7 @@ ENV/
 # Logs
 *.log
 
-# SQLite databases (opzionale)
+# SQLite databases
 *.sqlite3
 
 # Test coverage
