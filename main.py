@@ -1,10 +1,10 @@
 #functions
 def beginner_workout():
-    pass
+    print("Beginner workout selected: ")
 def advanced_workout():
-    pass
+    print("Advanced workout selected: ")
 def gym_workout():
-    pass
+    print("Gym workout selected: ")
 
 #menu
 print("Welcome to the weekly workout generetor: \n 1: Beginner. \n 2: Advanced with race. \n 3: Gym.")
