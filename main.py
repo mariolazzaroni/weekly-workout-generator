@@ -1,6 +1,6 @@
 #basic functions
 def beginner_workout():
-    import beginner_workout
+    import workouts.beginner_workout as beg
 def advanced_workout():
     print("Advanced workout selected!")
 def gym_workout():
