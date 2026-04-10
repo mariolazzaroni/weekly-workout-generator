@@ -1,16 +1,29 @@
 #functions 
 def running_beginner():
-    pass
+    week = input("Is this your first week of training? (y/n) ")
+    while True:
+        if week == "y" or "Y":
+            workout_stats = []
+            days_xweek = int(input("How many days you can train per week? "))
+            hours_xweek = int(input("How many hours you can train per week? "))
+            workout_stats.append(days_xweek, hours_xweek)
+            break
+        elif week == "n" or "N":
+            break
+        else:
+            print("Please select a valid option!!!")
+    
+
 def running_intermediate():
     pass
 #headline
-print("Beginner/Intermediate workout selected! Welcome. \n Now select your current status: \n 1: Beginner (I can't run 30') \n 2: Intermediate (I can run 30')")
-choice = int(input("Please select you current training status: "))
+print("Beginner/Intermediate workout selected! Welcome. \n Can you run 30'?")
+choice = input("Please select you current training status by typing y o n ")
 while True:
-    if choice == 1:
+    if choice == "y" or "Y":
         running_beginner()
         break
-    elif choice == 2:
+    elif choice == "n" or "N":
         running_intermediate()
         break
     else:
