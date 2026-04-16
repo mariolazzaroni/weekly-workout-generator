@@ -7,6 +7,8 @@ def running_beginner():
             days_xweek = int(input("How many days you can train per week? "))
             hours_xweek = int(input("How many hours you can train per week? "))
             workout_stats.append(days_xweek, hours_xweek)
+            hours_xday = workout_stats[1] / workout_stats[2]
+            
             break
         elif week == "n" or "N":
             break
